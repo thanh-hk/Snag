@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SNAG - HKT</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Navbar start -->
+        <section class="fixed-top">
+            <div class="accoucement-bar d-none d-lg-block">
+                <div class="container">
+                    <div class="top-info justify-center">
+                      Snag More, Save More: On Every Collection
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="header d-none d-lg-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="index.html" class="navbar-brand logo">
+                                <img src="img/logo.jpg" width="165" height="66" />
+                            </a>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="header-icon">
+                                <a class="header-search me-4 my-auto icon--header">
+                                    <span class="me-4 my-auto search-text">Search for...</span>
+                                    <span class="search-icon">                                
+                                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon feather-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+                                    </span>
+                                </a>
+                                <a href="#" class="me-4 my-auto icon--header">
+                                    <svg style="width: 35px;" aria-hidden="true" focusable="false" role="presentation" class="icon icon-account" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                </a>
+                                <a href="#" class="position-relative me-4 my-auto icon--header">
+                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon feather-bag" viewBox="0 0 24 28"><rect x="1" y="7" width="22" height="20" rx="2" ry="2"></rect><path d="M6 10V6a5 4 2 0 1 12 0v4"></path></svg>
+                                    <span class="cart__count">3</span>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header--mobile">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            <a class="me-4 my-auto icon--header">
+                                <span class="search-icon">                                
+                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon feather-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+                                </span>
+                            </a>
+                            
+                        </div>
+                        <div class="col-md-4 logo">
+                            <a href="index.html" class="navbar-brand logo">
+                                <img src="img/logo.jpg" width="90" height="30" />
+                            </a>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="header-icon">
+                                <a class="header-search me-4 my-auto icon--header">
+                                    <span class="me-4 my-auto search-text">Search for...</span>
+                                    <span class="search-icon">                                
+                                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon feather-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+                                    </span>
+                                </a>
+                                <a href="#" class=" my-auto icon--header">
+                                    <svg style="width: 35px;" aria-hidden="true" focusable="false" role="presentation" class="icon icon-account" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                </a>
+                                <a href="#" class="position-relative  my-auto icon--header">
+                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon feather-bag" viewBox="0 0 24 28"><rect x="1" y="7" width="22" height="20" rx="2" ry="2"></rect><path d="M6 10V6a5 4 2 0 1 12 0v4"></path></svg>
+                                    <span class="cart__count">3</span>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header--menu">
+                <div class="container">
+                    <nav class="navbar-light bg-white navbar-expand-xl">                                           
+                        <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                            <div class="header-icon">
+                                <a class="me-4 my-auto icon--header">
+                                    <span class="search-icon">                                
+                                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon feather-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="navbar-nav mx-auto">
+                                <a href="index.html" class="nav-item nav-link">All tights</a>
+                                <a href="shop.html" class="nav-item nav-link">All products</a>
+                                <a href="shop-detail.html" class="nav-item nav-link">What's new</a>
+                                <a href="shop-detail.html" class="nav-item nav-link">Epic leggings</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link " data-bs-toggle="dropdown">Tight</a>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link " data-bs-toggle="dropdown">Clothes</a>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link" data-bs-toggle="dropdown">Special editions</a>
+                                </div>
+                                <a href="shop-detail.html" class="nav-item nav-link">Snag bucks</a>
+                                <a href="shop-detail.html" class="nav-item nav-link">Wash bag</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link " data-bs-toggle="dropdown">More links</a>
+                                </div>
+                            </div>
+                            <div class="header-icon">
+                                <a href="#" class="me-4 my-auto icon--header">
+                                    <svg style="width: 35px;" aria-hidden="true" focusable="false" role="presentation" class="icon icon-account" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                </a>
+                                <a href="#" class="position-relative me-4 my-auto icon--header">
+                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon feather-bag" viewBox="0 0 24 28"><rect x="1" y="7" width="22" height="20" rx="2" ry="2"></rect><path d="M6 10V6a5 4 2 0 1 12 0v4"></path></svg>
+                                    <span class="cart__count">3</span>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Hero Start -->
+        <section  class="mb-3 section--hero-header">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-md-12 col-lg-6 header-text">
+                        <h1 class=" display-3 ">
+                            <span class="sub-heading">We make clothes for</span>
+                            <span class="primary-heading">Everyone</span>
+                        </h1>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section >
+        <!-- Hero End -->
+
+        <!-- Breadcrum Start -->
+        <section class="section-breadcrumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Our purpose</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Breadcrum End -->
+
+         <!-- Border Start -->
+        <section class="section--border">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 border--inner ">
+                        <div class="border--item border--item__blue"></div>
+                        <div class="border--item border--item__purple"></div>
+                        <div class="border--item border--item__orange"></div>
+                        <div class="border--item border--item__yellow"></div>
+                        <div class="border--item border--item__blue"></div>
+                        <div class="border--item border--item__purple"></div>
+                        <div class="border--item border--item__orange"></div>
+                        <div class="border--item border--item__yellow"></div>
+                        <div class="border--item border--item__blue"></div>
+                        <div class="border--item border--item__purple"></div>
+                        <div class="border--item border--item__orange"></div>
+                        <div class="border--item border--item__yellow"></div>
+                        <div class="border--item border--item__blue"></div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="section-purpose section--padding-top section--padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-summary">
+                        <div class="section-summary--heading">It's time for the fashion revolution</div>
+                        <div class="section-summary--content">At Snag we believe one thing above all others: Every body has the right to comfortable, high quality, ethically made and affordable clothes that really fit them. The fashion patriarchy actively damages people every day - it damages our self image, it damages our mental health, and it damages the environment</div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6">
+                        <div class="brand--inner brand--item-yellow">
+                                <div class="brand--inner-line-wrapper">
+                                    <div class="brand--inner-text--wrapper">
+                                        <div class="brand--text-heading">
+                                            A purpose led brand
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="brand--text-content">
+                                            Before profit our purpose is to make clothing accessible to every one.
+                                        </div>
+                                    </div>
+                               </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="brand--inner brand--item-blue image-right">
+                                <div class="brand--inner-line-wrapper">
+                                    <div class="brand--inner-text--wrapper">
+                                        <div class="brand--text-heading">
+                                            A value led business
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="brand--text-content">
+                                            We do not seek to maximise the profit we as a business can make from a product, we seek to maximise the value that product can give to the person who buys it.
+                                        </div>
+                                    </div>
+                               </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="brand--inner brand--item-purple">
+                                <div class="brand--inner-line-wrapper">
+                                    <div class="brand--inner-text--wrapper">
+                                        <div class="brand--text-heading">
+                                            A community led brand
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="brand--text-content">
+                                            We did not create the community, we exist to serve the community of people who are excluded by the current fashion industry.
+                                        </div>
+                                    </div>
+                               </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="brand--inner brand--item-orange image-right">
+                                <div class="brand--inner-line-wrapper">
+                                    <div class="brand--inner-text--wrapper">
+                                        <div class="brand--text-heading">
+                                            A inclusion led brand
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="brand--text-content">
+                                            We strive to include everyone who shares our values, regardless of size, gender race or ability.
+                                        </div>
+                                    </div>
+                               </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="brand--inner brand--item-light-pink">
+                                <div class="brand--inner-line-wrapper">
+                                    <div class="brand--inner-text--wrapper">
+                                        <div class="brand--text-heading">
+                                            A ethics led brand
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="brand--text-content">
+                                            We will not bring a product to market unless we are confident in the ethics and sustainability of the whole supply chain
+                                        </div>
+                                    </div>
+                               </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="brand--inner brand--item-dark-purple image-right">
+                                <div class="brand--inner-line-wrapper">
+                                    <div class="brand--inner-text--wrapper">
+                                        <div class="brand--text-heading">
+                                            A value led business
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="brand--text-content">
+                                            We do not seek to maximise the profit we as a business can make from a product, we seek to maximise the value that product can give to the person who buys it.
+                                        </div>
+                                    </div>
+                               </div>
+                        </div>
+                    </div>
+                    
+                  
+                </div>
+            </div>
+        </section>
+        <section class="section--border">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 border--inner ">
+                        <div class="border--item border--item__blue"></div>
+                        <div class="border--item border--item__purple"></div>
+                        <div class="border--item border--item__orange"></div>
+                        <div class="border--item border--item__yellow"></div>
+                        <div class="border--item border--item__blue"></div>
+                        <div class="border--item border--item__purple"></div>
+                        <div class="border--item border--item__orange"></div>
+                        <div class="border--item border--item__yellow"></div>
+                        <div class="border--item border--item__blue"></div>
+                        <div class="border--item border--item__purple"></div>
+                        <div class="border--item border--item__orange"></div>
+                        <div class="border--item border--item__yellow"></div>
+                        <div class="border--item border--item__blue"></div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="section-trustpilot section--padding-top section--padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-summary--heading">Hear what customer said about us </div> 
+                    </div>
+                    <div class="col-12">
+                        <div class="trustpilot-widget"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-selling-points section--padding-top section--padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="snag-heart"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="usps--item usps--free-delivery">
+                            <div class="ups--icon"></div>
+                            <div class="ups--content">
+                                <div class="ups--heading">FREE Tracked Delivery</div>
+                                <div class="ups--text">On Orders Over £70</div>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="usps--item usps--plastic-free">
+                            <div class="ups--icon"></div>
+                            <div class="ups--content">
+                                <div class="ups--heading">Proudly Plastic Free </div>
+                                <div class="ups--text">Paper Only Packaging</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="usps--item usps--saving">
+                            <div class="ups--icon"></div>
+                            <div class="ups--content">
+                            <div class="ups--heading">Snag More, Save More</div>
+                            <div class="ups--text">On Every Collection</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+       <section class="section-snag--partner section--padding-top section--padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-summary--heading">Want More ? Click Below...</div> 
+                </div>
+                <div class="col-12">
+                    <div class="snag-partners">
+                        <div class="snag-partner--item">
+                            <a href="#"> 
+                                <img src="img/hey-girl.jpg" width="166" height="48" />
+                                <span class="logo-list__logo-text ">Hey Girls Charity</span>
+                            </a>
+                            <a href="#"> 
+                                <img src="img/snag-social.jpg" width="134" height="64" />
+                                <span class="logo-list__logo-text ">Our Communities</span>
+                            </a>
+                            <a href="#"> 
+                                <img src="img/snag-club.jpg" width="134" height="76" />
+                                <span class="logo-list__logo-text ">Buy, Swap, Sell Snags</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+        <!-- Footer Start -->
+        <section class="section-footer section--padding-top section--padding-bottom">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer--menu-heading">Useful Info </div>
+                        <div class="footer--menu-item">
+                            <div class="footer-link">
+                                <a href="#">FAQs</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Size Guide</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Colour Comparison</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Privacy Policy</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer--menu-heading">Who We Are </div>
+                        <div class="footer--menu-item">
+                            <div class="footer-link">
+                                <a href="#">Our Purpose</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Our Impact</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Recycling Programmer</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Jobs at Snag</a>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer--menu-heading">Get In Touch  </div>
+                        <div class="footer--menu-item">
+                            <div class="footer-link">
+                                <a href="#">Customer Service</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Find Your Community</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Jobs at Snag</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="#">Collab With U</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer--menu-heading">Follow us!</div>
+                        <div class="footer--menu-item footer--menu-social">
+                            <a class="footer-link" href="https://www.facebook.com/snagtights/">
+                                <svg aria-hidden="true" focusable="false" role="presentation" class="icon svg-facebook" viewBox="0 0 24 24"><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></path></svg>
+                            </a>
+                            <a class="footer-link" href="https://www.youtube.com/channel/UC40LglScnPRSutosXrwUqNQ/">
+                                <svg aria-hidden="true" focusable="false" role="presentation" class="icon svg-youtube" viewBox="0 0 24 24"><path class="a" d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"></path></svg>
+                            </a>
+                            <a class="footer-link" href="https://www.instagram.com/snagtights/">
+                                <svg aria-hidden="true" focusable="false" role="presentation" class="icon svg-instagram" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 0 0 1.384 2.126A5.868 5.868 0 0 0 4.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 0 0 2.126-1.384 5.86 5.86 0 0 0 1.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 0 0-1.384-2.126A5.847 5.847 0 0 0 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 0 1-.899 1.382 3.744 3.744 0 0 1-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 0 1-1.379-.899 3.644 3.644 0 0 1-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 1 0 0-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 0 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"></path></svg>
+                            </a>
+                            <a class="footer-link" href="https://www.tiktok.com/@snagtights">
+                                <svg class="icon svg-tiktok" width="30" height="30" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7.63849 0.0133333C8.51182 0 9.37849 0.00666667 10.2452 0C10.2985 1.02 10.6652 2.06 11.4118 2.78C12.1585 3.52 13.2118 3.86 14.2385 3.97333V6.66C13.2785 6.62667 12.3118 6.42667 11.4385 6.01333C11.0585 5.84 10.7052 5.62 10.3585 5.39333C10.3518 7.34 10.3652 9.28667 10.3452 11.2267C10.2918 12.16 9.98516 13.0867 9.44516 13.8533C8.57183 15.1333 7.05849 15.9667 5.50516 15.9933C4.55183 16.0467 3.59849 15.7867 2.78516 15.3067C1.43849 14.5133 0.491825 13.06 0.351825 11.5C0.338492 11.1667 0.331825 10.8333 0.345158 10.5067C0.465158 9.24 1.09183 8.02667 2.06516 7.2C3.17183 6.24 4.71849 5.78 6.16516 6.05333C6.17849 7.04 6.13849 8.02667 6.13849 9.01333C5.47849 8.8 4.70516 8.86 4.12516 9.26C3.70516 9.53333 3.38516 9.95333 3.21849 10.4267C3.07849 10.7667 3.11849 11.14 3.12516 11.5C3.28516 12.5933 4.33849 13.5133 5.45849 13.4133C6.20516 13.4067 6.91849 12.9733 7.30516 12.34C7.43182 12.12 7.57182 11.8933 7.57849 11.6333C7.64516 10.44 7.61849 9.25333 7.62516 8.06C7.63182 5.37333 7.61849 2.69333 7.63849 0.0133333Z"></path></svg>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <section class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright-text">Copyright © 2024 Snag. <br>The name 'Snag', the Snag logo and 'Chub Rub' are registered trade marks of Snag Group Ltd. </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="credit-cards">
+                            <div class="credit-card-item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <!-- Copyright End -->
+
+
+
+        
+
+           <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
